@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+@import url("https://use.typekit.net/olc6jmr.css");
+
+html {
+    height: 100%;
+    width: 100%;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    height: 100%;
+
+    background-image: url(img/banner-faded.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.my_nav {
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
+    background-color: rgb(255 255 255 / 87%) !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.main-header {
+    background-image: url(img/banner.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 90%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0;
+    padding-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-header {
+        background-image: url(img//Large\ Dot.png);
+        background-size: contain;
+        background-color: rgb(195, 223, 239);
+    }
+}
+
+
+.main-header .row {
+    height: 15vh;
+    align-items: center;
+}
+
+.default-header {
+    background-color: transparent;
+    height: max(auto, 100vh);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 80px;
+    padding-top: 20px;
+}
+
+.header-text-holder,
+.subscribe-holder {
+    text-align: center;
+    color: white;
+}
+
+.default-header-text-holder {
+    text-align: center;
+    /* color: white; */
+}
+
+h1 a {
+    font-size: min(10vw, 10vh);
+    font-family: "almaq-rough", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white
+}
+
+.main-header h2 {
+    color: white;
+    font-size: min(4vw, 4vh);
+    font-weight: 600;
+}
+
+.default-header-text-holder p {
+    font-size: .5em;
+    font-weight: 600;
+
+}
+
+h1 a:hover {
+    color: #E70C2E;
+}
+
+.default-body-content .list-group .list-group-item h3 {
+    font-size: 1.3em;
+}
+
+.default-body-content .list-group a {
+    color: black;
+    padding-top: 20px;
+}
+
+.home-body-content .my_card {
+    margin-bottom: 25px;
+    transition-duration: 0.4s;
+}
+
+.my_card {
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-bottom: 7px;
+    background: rgba(210, 228, 238, 0.94);
+    /* background: linear-gradient(0deg, rgba(255, 255, 255, 0.0) 0%, rgba(255, 235, 205, 1) 100%); */
+}
+
+h3.my_card {
+    font-size: 2em;
+    color: black;
+    /* font-family: "almaq-rough", sans-serif; */
+    font-weight: 600;
+    font-style: normal;
+}
+
+.default-header h2.my_card {
+    font-size: 2.5em;
+    color: black;
+    font-family: "almaq-rough", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.copy {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    background-color: black;
+    min-height: 5vh;
+    text-align: center;
+}
+
+.copy p {
+    margin: 0px;
+}
+
+/* header a {
+    color: white;
+    text-decoration: none;
+} */
+
+.outline {
+    text-shadow: -1px 1px 0 #aaa,
+        1px 1px 0 #aaa,
+        1px -1px 0 #aaa,
+        -1px -1px 0 #aaa;
+}
+
+.default-header h1 {
+    font-family: "almaq-rough", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(204, 27, 27);
+    font-size: 5vh;
+    /* text-shadow: -2px 2px 0 #000,
+        2px 2px 0 #000,
+        2px -2px 0 #000,
+        -2px -2px 0 #000; */
+}
+
+.default-header h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
